@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto','sans-serif';
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/fondo3.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   }
+   .nav{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px 10%;
+    
+    cursor: pointer;
+    
+}
+  .logo {
+  margin:  10px;
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+
+  
+}
+ 
+ .nav1 a{
+
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+   
+    display: inline-flex;
+    padding: 0 10px;
+    margin-left: 10px;
+}
